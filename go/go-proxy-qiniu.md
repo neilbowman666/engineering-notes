@@ -85,7 +85,10 @@ func main() {
 ```
 并且运行它
 
-$ go run goproxy.go
+```bash
+go run goproxy.go
+```
+
 然后通过把 GOPROXY 设置为 http://localhost:8080 来试用它。另外，我们也建议你把 GO111MODULE 设置为 on。
 
 就这么简单，一个功能完备的 Go 模块代理就搭建成功了。事实上，你还可以将 [Goproxy](https://github.com/goproxy/goproxy) 结合着你钟爱的 Web 框架一起使用，比如 [Gin](https://pkg.go.dev/github.com/gin-gonic/gin#WrapH) 和 [Echo](https://pkg.go.dev/github.com/labstack/echo/v4#WrapHandler)，你所需要做的只是多添加一条路由而已。更高级的用法请查看[文档](https://pkg.go.dev/github.com/goproxy/goproxy)。
