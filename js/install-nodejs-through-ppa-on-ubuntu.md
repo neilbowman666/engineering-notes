@@ -38,7 +38,7 @@ sudo apt-get update && sudo apt-get install yarn
 
 ## NPM 配置中国源
 
-[链接](./npm-china-srouce.md)
+[链接](./npm-china-source.md)
 
 ## NPM 自升级
 
